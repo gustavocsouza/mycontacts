@@ -3,7 +3,7 @@ import HttpClient from './utils/HttpClient';
 
 class ContactsService {
   constructor() {
-    this.httpClient = new HttpClient(process.env.BASE_URL);
+    this.httpClient = new HttpClient("https://mycontacts-v407.onrender.com");
   }
 
   async listContacts(orderBy, signal) {
