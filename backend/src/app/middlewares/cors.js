@@ -1,6 +1,6 @@
 module.exports = (request, response, next) => {
   const allowedOrigins = [
-    'https://mycontacts-delta.vercel.app/',
+    'https://mycontacts-delta.vercel.app',
   ];
 
   const origin = request.header('origin');
